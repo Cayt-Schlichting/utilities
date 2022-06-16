@@ -1,3 +1,6 @@
+import numpy as np
+import pandas as pd
+
 ###### OUTLIER FUNCTIONS #####
 ### get_iqr_outlier_bounds(df,include=None,exclude=None)
 ### trim_iqr_outliers(df,bounds)
