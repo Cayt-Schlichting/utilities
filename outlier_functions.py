@@ -11,8 +11,12 @@ import pandas as pd
 ##### IMPROVEMENT TO MAKE #####
 # handle_iqr_outliers:
 #   1) Investigate why python is updating my dataframe external to the function - needed to use df = old_df.copy() to prevent this
+#   2) Add in multipler and remodularize like how I did in the anomaly exercises
+#   3) Add "type" parameter that can identify just upper or lower bounds or both
 # get_iqr_outlier_bounds:
 #   1) Add function to check if column only contains 0s and 1s.  If so, remove it from the list of columns to consider.
+# NEW FUNCTION:
+#   1) Returns only the outliers
 
 def get_iqr_outlier_bounds(df,include=None,exclude=None):
     """

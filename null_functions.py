@@ -1,3 +1,6 @@
+import numpy as np
+import pandas as pd
+
 ###### NULL FUNCTIONS #####
 ### count_nulls(df,by_column=True)
 ### handle_missing_values(df, prop_req_col=.75, prop_req_row=.75)
